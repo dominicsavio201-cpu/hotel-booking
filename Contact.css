@@ -1,0 +1,214 @@
+body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    
+/* BACKGROUND IMAGE SLIDE SHOW */
+
+   .slideshowa {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50rem;
+      z-index: -1;
+      overflow: hidden;
+    }
+    .slidea {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      opacity: 0;
+      animation: fade 25s infinite;
+    }
+    .slidea:nth-child(1) { background-image: url('Assets/bg11x.jpg'); animation-delay: 0s; }
+    .slidea:nth-child(2) { background-image: url('Assets/bg5x.jpeg'); animation-delay: 5s; }
+    .slidea:nth-child(3) { background-image: url('Assets/bg10x.jpg'); animation-delay: 10s; }
+    .slidea:nth-child(4) { background-image: url('Assets/bg6x.jpeg'); animation-delay: 15s; }
+    .slidea:nth-child(5) { background-image: url('Assets/bg7x.jpeg'); animation-delay: 20s; }
+
+    @keyframes fade {
+      0% { opacity: 0; }
+      4% { opacity: 1; }
+      20% { opacity: 1; }
+      24% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+
+
+header {
+      background: rgba(0, 0, 0, 0.705);
+      color:#fff;
+      padding:10px;
+      display:flex;
+      justify-content:center;
+      gap: 25rem;
+    }
+
+
+    .nav2 {
+        gap: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav2:hover {
+      color: orange;
+    }
+
+
+
+     .nav2a {
+        gap: 3rem;
+        display: flex;
+        justify-content: center;
+        color: orange;
+    }
+
+    .nav2a:hover {
+      color: white;
+    }
+
+
+    header nav a {
+        color:#fff;
+        margin:0 10px;
+        text-decoration:none;
+    }
+
+
+    .Logo {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 2.5rem;
+        margin-left: 1rem;
+    }
+
+      .btn {
+        display:inline-block;
+        background:#004080;
+        color:#fff;
+        padding:10px 15px;
+        text-decoration:none;
+        border-radius:4px;
+    }
+
+    .btn:hover {
+      background-color: orange;
+      color: blue;
+    }
+
+
+    .hero {
+      color:#fff;
+      /* padding:80px 20px; */
+      text-align:center;
+      /* position:relative; */
+      z-index: 1;
+      height: 50rem;
+      /* display: flex; */
+      /* flex-direction: column; */
+      justify-content: center;
+      /* margin-top: -20rem; */
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 2.5rem;
+    }
+
+
+    .Content {
+        margin-top: -15rem;
+
+    }
+
+
+    .Get {
+        display: flex;
+        justify-content: center;
+        gap: 25rem;
+    }
+
+    /* MENU */
+
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      font-size: 16px;
+      border: none;
+    }
+    button:hover {
+      background-color: orange;
+    }
+    .message {
+      font-weight: bold;
+      text-align: center;
+    }
+    .account-details {
+      background-color: #e8f0fe;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .account-details h4 {
+      margin-top: 0;
+    }
+  
+    
+     footer {
+        background: black;
+        color: white;
+        padding:20px;
+        /* text-align:center; */
+    }
+
+
+
+    .prefooter1 {
+      border: solid;
+      width: 15rem;
+      margin-left: 33rem;
+      padding-left: 0.5rem;
+    }
+
+    .prefooter1:hover {
+      background-color: rgb(10, 12, 31);
+      color: orange;
+      cursor: pointer;
+    }
+    
+
+
+    .prefooter {
+      display: flex;
+      justify-content: space-between;
+    }
+
+
+
+
+
+
+ 

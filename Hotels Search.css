@@ -1,0 +1,33 @@
+/* HOTELS SERACH ENGINE */
+
+   
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .hotel {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+    }
+    .hotel:last-child {
+      border-bottom: none;
+    }
+    .hotel h4 {
+      margin: 0;
+    }
+    .hotel p {
+      margin: 5px 0 0;
+    }
+ 
+ 
